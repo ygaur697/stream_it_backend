@@ -1,0 +1,33 @@
+{
+  "name": "stream_it_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "gridfs-stream": "^1.1.1",
+    "method-override": "^3.0.0",
+    "mongodb": "^4.1.0",
+    "mongoose": "^5.13.7",
+    "multer-gridfs-storage": "^5.0.1",
+    "multer": "^1.4.3",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ygaur697/stream_it_backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ygaur697/stream_it_backend/issues"
+  },
+  "homepage": "https://github.com/ygaur697/stream_it_backend#readme"
+}
